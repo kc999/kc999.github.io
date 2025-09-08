@@ -1,20 +1,21 @@
 header > h1{
   margin: 15;
-  font-size: 200%;
+  font-size: 300%;
 }
-ul {
+.headernavbar ul {
   list-style-type:none;
   margin: 0;
   padding: 0;
   display: flex;
   background-color: rgb(84, 66, 245);
 }
-ul li a{
+.headernavbar ul li a{
   display: block;
   color: white;
   padding: 20px 12px;
   text-decoration: none;
+  font-size:150%
 }
-ul li a:hover{
+.headernavbar ul li a:hover{
   color:rgb(128, 114, 252)
 }
