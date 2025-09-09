@@ -5,16 +5,12 @@ header > h1{
 }
 }
 ul {
-  justify-content: center;
   list-style: none;
-  display: flex;
-  background-color: rgb(84, 66, 245);
+  justify-content: center;
+  gap: 10px;
 }
 .navbarlink {
   display: block;
-  color: white;
-  padding: 20px 12px;
-  text-decoration: none;
   font-size:150%;
 }
 .headernavbar ul li a:hover{
