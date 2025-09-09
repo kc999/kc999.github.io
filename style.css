@@ -4,10 +4,10 @@ header > h1{
   text-align:center;
 }
 }
-.headernavbar ul {
-  justify-content:center;
-  list-style:none;
-  display:flex;
+ul {
+  justify-content: center;
+  list-style: none;
+  display: flex;
   background-color: rgb(84, 66, 245);
 }
 .navbarlink {
