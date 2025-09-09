@@ -4,7 +4,7 @@ header > h1{
   text-align:center;
 }
 }
-ul {
+.navbarul {
   list-style: none;
   justify-content: center;
   gap: 10px;
