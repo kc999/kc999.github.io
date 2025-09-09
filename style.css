@@ -4,17 +4,17 @@ header > h1{
   text-align:center;
 }
 }
-.navbarul {
+.navbartop > ul {
   list-style: none;
   justify-content: center;
   gap: 10px;
   display: flex;
 }
-.navbarlink {
+.navbartop  a{
   display: block;
   color:black;
   font-size:150%;
 }
-.navbarlink:hover{
+.navbartop a:hover{
   color:rgb(128, 114, 252)
 }
