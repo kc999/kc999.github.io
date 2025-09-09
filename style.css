@@ -10,7 +10,7 @@ header > h1{
   display:flex;
   background-color: rgb(84, 66, 245);
 }
-.headernavbar ul li a{
+.navbarlink {
   display: block;
   color: white;
   padding: 20px 12px;
