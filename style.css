@@ -11,6 +11,7 @@ header > h1{
 }
 .navbarlink {
   display: block;
+  color:black;
   font-size:150%;
 }
 .headernavbar ul li a:hover{
