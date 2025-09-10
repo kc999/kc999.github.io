@@ -1,17 +1,43 @@
-header > h1{
-  margin: 15;
-  font-size: 300%;
-  text-align:center;
+header {
+	font-family: Garamond;
 }
+h1{
+	font-size: 300%;
+	text-align: center;
+	
 }
 .navbarlist {
-  list-style: none;
-  justify-content: center;
-  gap: 10px;
-  display: flex;
+	list-style-type: none;
+	justify-content: center;
+	gap: 10px;
+	display: flex;
+	background-color:rgb(3, 119, 252);
+	padding: 2em;
 }
-.navbarlink {
-  display: block;
-  color:black;
-  font-size:150%;
+.navbarlink{
+	padding: 0px 1em 0px 1em;
+	
+}
+.navbarlist li + li {
+	border-left: 0.5em solid;
+	border-color: white
+}
+.navbarlink > a{
+	display: block;
+	font-size: 200%;
+	text-decoration: none;
+	color: white;
+}
+body {
+	text-align: center;
+	font-size: 120%
+	font-family: Garamond;
+}
+footer {
+	color: darkgray;
+	font-size: 75%;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
 }
