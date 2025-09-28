@@ -1,12 +1,14 @@
 header {
-	font-family: Garamond;
+	font-family: 'Handwriting', Garamond;
 }
 h1{
+	font-family: 'Handwriting', Garamond;
 	font-size: 300%;
 	text-align: center;
 	
 }
 h2 {
+	font-family: 'Handwriting', Garamond;
 	font-size: 225%;
 	text-align:center;
 }
@@ -66,4 +68,12 @@ footer {
 	width: 100%;
 	bottom: 0;
 	text-align: center;
+}
+@font-face{
+	font-family: 'Handwriting';
+	src: local('Handwriting'),
+	url('fonts/KyleHandwriting-Regular.otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
